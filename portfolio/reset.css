@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+html,
+body {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+html {
+    border: 0;
+    font-size: 100%;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div,
+span,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    float: none !important;
+}
+
+table,
+th,
+td {
+    vertical-align: middle;
+}
+
+blockquote before,
+blockquote after,
+q before,
+q after {
+    content: '';
+}
+
+a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+button,
+select {
+    outline: none;
+    box-shadow: none;
+}
+
+::placeholder::focus {
+    color: transparent;
+}
+
+.wrapper {
+    overflow: hidden;
+    margin-top: 159px;
+}
+
+@media mobile {
+    .wrapper {
+        margin-top: 120px;
+    }
+}
+
+.banner-js {
+    margin: 0;
+}
+
+main,
+footer {
+    max-width: 100%;
+}
