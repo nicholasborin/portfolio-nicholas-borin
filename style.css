@@ -295,10 +295,6 @@
     transition: 0.2s;
 }
 
-.skill__box:hover {
-    scale: 1.06;
-}
-
 @media (min-width: 500px) {
 
     .skill__box {
