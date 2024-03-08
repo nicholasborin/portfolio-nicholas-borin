@@ -1,21 +1,25 @@
 /* Container */
 
 .container{
+    display: flex;
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container__informations {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: first baseline;
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
-    min-height: 400px;
-    margin-top: 20px;
 }
 
 .container__informations h1 {
@@ -32,6 +36,48 @@
 .container__informations p {
     font-size: 14px;
     font-weight: 400;
+}
+
+/* Animation */
+
+.hidden {
+    opacity: 0;
+    transition: all 1.5s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0);
+}
+
+.cards :nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.cards :nth-child(3) {
+    transition-delay: 700ms;
+}
+
+.cards :nth-child(4) {
+    transition-delay: 1000ms;
+}
+
+.cards :nth-child(5) {
+    transition-delay: 1300ms;
+}
+
+.cards :nth-child(6) {
+    transition-delay: 1600ms;
+}
+
+.cards :nth-child(7) {
+    transition-delay: 1900ms;
+}
+
+.cards :nth-child(8) {
+    transition-delay: 2200ms;
 }
 
 /* Section */
