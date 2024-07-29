@@ -42,6 +42,7 @@
     width: 100%;
     min-height: 44px;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #dfdfdf;
     align-items: center;
     justify-content: center;
     z-index: 1;
